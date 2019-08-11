@@ -1,5 +1,5 @@
-import arrayOfProblems from './Problems';
+import arrayOfEulerProblems from './Problems';
 
-arrayOfProblems.forEach((problem, index) => {
-    console.log(`Problem ${index+1}: `, problem());
+arrayOfEulerProblems.forEach((eulerProblem, index) => {
+    console.log(`Problem ${index+1}: `, eulerProblem());
 })

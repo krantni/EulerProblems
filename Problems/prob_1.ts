@@ -9,7 +9,7 @@ const problem1 = () => {
   let sum = 0;
   let i = 0;
   while (i < 1000) {
-    if (i % 5 === 0 && i % 3 === 0) {
+    if (i % 5 === 0 || i % 3 === 0) {
       sum += i;
     }
     i++;
