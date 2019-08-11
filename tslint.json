@@ -1,11 +1,22 @@
 {
-    "defaultSeverity": "error",
     "extends": [
-        "tslint:recommended"
+        "tslint-config-airbnb",
+        "tslint-config-prettier",
+        "tslint-plugin-prettier"
     ],
-    "jsRules": {
-        "no-console": false
+    "rules": {
+        "no-any":true,
+        "import-name": false,
+        "strict-boolean-expressions": true,
+        "no-increment-decrement": false,
+        "semicolon": false,
+        "variable-name":[
+            true,
+            "check-format",
+            "allow-pascal-case"
+        ]
     },
-    "rules": {},
-    "rulesDirectory": []
-}
+    "jsRules": {
+        "no-eval":true
+    }
+  }

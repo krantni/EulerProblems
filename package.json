@@ -5,7 +5,7 @@
   "main": "euler.ts",
   "scripts": {
     "start": "tsc && node dist/euler.js",
-    "tslint": "tslint --fix"
+    "tslint": "tslint --fix --project ./tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/krantni/EulerProblems#readme",
   "devDependencies": {
     "tslint": "^5.18.0",
+    "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.5.3"
   }
 }
