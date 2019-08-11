@@ -4,7 +4,7 @@
   "description": "",
   "main": "euler.ts",
   "scripts": {
-    "start": "tsc && node dist/euler.js",
+    "start": "tsc && node build/euler.js",
     "tslint": "tslint --fix --project ./tsconfig.json"
   },
   "repository": {
