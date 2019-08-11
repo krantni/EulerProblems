@@ -1,0 +1,24 @@
+{
+  "name": "eulerproblems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "euler.ts",
+  "scripts": {
+    "start": "tsc && node dist/euler.js",
+    "tslint": "tslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krantni/EulerProblems.git"
+  },
+  "author": "Nick Krantz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krantni/EulerProblems/issues"
+  },
+  "homepage": "https://github.com/krantni/EulerProblems#readme",
+  "devDependencies": {
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  }
+}
