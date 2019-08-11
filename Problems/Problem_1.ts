@@ -4,7 +4,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below 1000.
 */
 
-const problem1 = () => {
+export const problem1 = () => {
   let sum = 0;
   let i = 0;
   while (i < 1000) {
@@ -15,5 +15,3 @@ const problem1 = () => {
   }
   return sum;
 };
-
-export default problem1;
