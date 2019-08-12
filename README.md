@@ -7,6 +7,7 @@ Some people do crosswords, some people do sudokus, I'll do [Euler Problems](http
 * [Problem 1](Problems/Problem_1.ts)
 * [Problem 2](Problems/Problem_2.ts)
 * [Problem 3](Problems/Problem_3.ts)
+* [Problem 4](Problems/Problem_4.ts)
 
 ### Commands
 
