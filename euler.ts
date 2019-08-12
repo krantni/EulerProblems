@@ -14,6 +14,7 @@ if (process.argv[2]) {
       `\nLooks like I haven't done that problem yet. \nPlease enter a problem between 1 and ${arrayOfEulerProblems.length}`,
     );
   } else {
+    console.log(`Starting Problem: ${problemIndex + 1}`);
     console.log(`Problem ${problemIndex + 1}: `, arrayOfEulerProblems[problemIndex]());
   }
 } else {
