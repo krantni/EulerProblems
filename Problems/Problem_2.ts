@@ -8,19 +8,18 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 */
 
 export const problem2 = () => {
-    let firstNum = 1;
-    let secondNum = 1;
-    let evenValuedSums = 0;
-    do {
-        const fibonacci = firstNum + secondNum;
-        if(fibonacci % 2 === 0){
-            evenValuedSums += fibonacci;
-        }
-        const temp = firstNum;
-        firstNum = secondNum;
-        secondNum = secondNum + temp;
+  let firstNum = 1;
+  let secondNum = 1;
+  let evenValuedSums = 0;
+  do {
+    const fibonacci = firstNum + secondNum;
+    if (fibonacci % 2 === 0) {
+      evenValuedSums += fibonacci;
+    }
+    const temp = firstNum;
+    firstNum = secondNum;
+    secondNum = secondNum + temp;
+  } while (secondNum < 4000000);
 
-    } while (secondNum < 4000000)
-
-    return evenValuedSums;
-}
+  return evenValuedSums;
+};
