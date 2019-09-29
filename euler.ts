@@ -8,7 +8,7 @@ if (process.argv[2]) {
       'Error: ',
       `\nPlease enter a problem between 1 and ${arrayOfEulerProblems.length}`,
     );
-  } else if (problemIndex > arrayOfEulerProblems.length) {
+  } else if (problemIndex + 1 > arrayOfEulerProblems.length) {
     console.error(
       'Error: ',
       `\nLooks like I haven't done that problem yet. \nPlease enter a problem between 1 and ${arrayOfEulerProblems.length}`,
